@@ -1,0 +1,35 @@
+@font-face {
+    font-family: muli;
+    font-weight: 200;
+    font-style: normal;
+    src: url(./fonts/muli-latin-200.woff2) format('woff2');
+}
+
+
+@font-face {
+    font-family: muli;
+    font-weight: 400;
+    font-style: normal;
+    src: url(./fonts/muli-latin-400.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: muli;
+    font-weight: 400;
+    font-style: italic;
+    src: url(./fonts/muli-latin-400italic.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: muli;
+    font-weight: 700;
+    font-style: normal;
+    src: url(./fonts/muli-latin-700.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: muli;
+    font-weight: 800;
+    font-style: normal;
+    src: url(./fonts/muli-latin-800.woff2) format('woff2');
+}
