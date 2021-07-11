@@ -33,3 +33,7 @@
     font-style: normal;
     src: url(./fonts/muli-latin-800.woff2) format('woff2');
 }
+
+.bi {
+    fill: currentColor;
+}

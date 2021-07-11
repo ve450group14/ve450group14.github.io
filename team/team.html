@@ -33,10 +33,36 @@
     <link href="team.css" rel="stylesheet">
 </head>
 
+<body>
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="bootstrap" viewBox="0 0 118 94">
+        <title>Bootstrap</title>
+        <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"></path>
+    </symbol>
+    <symbol id="home" viewBox="0 0 16 16">
+        <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"/>
+    </symbol>
+    <symbol id="intro" viewBox="0 0 16 16">
+        <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"/>
+        <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"/>
+    </symbol>
+    <symbol id="product" viewBox="0 0 16 16">
+        <path d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2l-2.218-.887zm3.564 1.426L5.596 5 8 5.961 14.154 3.5l-2.404-.961zm3.25 1.7-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z"/>
+    </symbol>
+    <symbol id="team" viewBox="0 0 16 16">
+        <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+    </symbol>
+    <symbol id="doc" viewBox="0 0 16 16">
+        <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
+    </symbol>
+</svg>
+
 <header>
-    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
-        <div class="container-xl flex-wrap flex-md-nowrap">
-            <a class="navbar-brand my-1" href="#">
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top px-3 py-2">
+        <div class="container-xl flex-wrap flex-md-nowrap align-items-center">
+            <a class="navbar-brand my-2 d-flex" href="#">
                 <img src="../image/ji.png" class="mx-3" alt="" height="40">
                 <img src="../image/midea.png" alt="" height="40">
             </a>
@@ -45,15 +71,46 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-md-center" id="navbarCollapse">
-                <ul class="navbar-nav fw-bold fs-5 me-auto mb-2 mb-md-0">
+                <ul class="navbar-nav fs-5 me-auto mb-2 mb-md-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="../index.html">Home</a>
+                        <a class="nav-link" href="../index.html">
+                            <svg class="bi d-inline-block mx-1 mb-1" width="20" height="20">
+                                <use xlink:href="#home"/>
+                            </svg>
+                            Home
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../product/product.html">Product</a>
+                        <a class="nav-link" href="../intro/intro.html">
+                            <svg class="bi d-inline-block mx-1 mb-1" width="20" height="20">
+                                <use xlink:href="#intro"/>
+                            </svg>
+                            Intro
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Team</a>
+                        <a class="nav-link" href="../product/product.html">
+                            <svg class="bi d-inline-block mx-1 mb-1" width="20" height="20">
+                                <use xlink:href="#product"/>
+                            </svg>
+                            Product
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <svg class="bi d-inline-block mx-1 mb-1" width="20" height="20">
+                                <use xlink:href="#team"/>
+                            </svg>
+                            Team
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <svg class="bi d-inline-block mx-1 mb-1" width="20" height="20">
+                                <use xlink:href="#doc"/>
+                            </svg>
+                            Doc
+                        </a>
                     </li>
                 </ul>
                 <form class="d-flex">
@@ -65,7 +122,12 @@
     </nav>
 </header>
 
-<body>
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="chevron-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd"
+              d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+    </symbol>
+</svg>
 
 <main>
 
@@ -98,7 +160,11 @@
                      src="../image/sym.jpg" alt="" aria-label="Placeholder: 140x140">
                 <h2>Yiming Shen</h2>
                 <p>Team Leader<br>Strategy</p>
-                <p><a class="btn btn-secondary" href="#sym">View details &raquo;</a></p>
+                <p><a class="btn btn-secondary icon-link" href="#sym">View details
+                    <svg class="bi" width="1em" height="1em">
+                        <use xlink:href="#chevron-right"/>
+                    </svg>
+                </a></p>
             </div><!-- /.col-lg-4 -->
 
             <div class="col-lg-4">
@@ -106,7 +172,11 @@
                      src="../image/lyt.jpg" alt="" aria-label="Placeholder: 140x140">
                 <h2>Yating Liu</h2>
                 <p>Team Member<br>Interaction Design</p>
-                <p><a class="btn btn-secondary" href="#lyt">View details &raquo;</a></p>
+                <p><a class="btn btn-secondary icon-link" href="#lyt">View details
+                    <svg class="bi" width="1em" height="1em">
+                        <use xlink:href="#chevron-right"/>
+                    </svg>
+                </a></p>
             </div><!-- /.col-lg-4 -->
 
             <div class="col-lg-4">
@@ -114,7 +184,11 @@
                      src="../image/fjz.jpg" alt="" aria-label="Placeholder: 140x140">
                 <h2>Jingzhe Fang</h2>
                 <p>Team Member<br>Investigation</p>
-                <p><a class="btn btn-secondary" href="#fjz">View details &raquo;</a></p>
+                <p><a class="btn btn-secondary icon-link" href="#fjz">View details
+                    <svg class="bi" width="1em" height="1em">
+                        <use xlink:href="#chevron-right"/>
+                    </svg>
+                </a></p>
             </div><!-- /.col-lg-4 -->
 
         </div>
@@ -126,7 +200,11 @@
                      src="../image/txy.jpg" alt="" aria-label="Placeholder: 140x140">
                 <h2>Xinyi Tang</h2>
                 <p>Team Member<br>Communication</p>
-                <p><a class="btn btn-secondary" href="#txy">View details &raquo;</a></p>
+                <p><a class="btn btn-secondary icon-link" href="#txy">View details
+                    <svg class="bi" width="1em" height="1em">
+                        <use xlink:href="#chevron-right"/>
+                    </svg>
+                </a></p>
             </div><!-- /.col-lg-4 -->
 
             <div class="col-lg-4">
@@ -134,7 +212,11 @@
                      src="../image/wz.jpg" alt="" aria-label="Placeholder: 140x140">
                 <h2>Zhe Wang</h2>
                 <p>Team Member<br>Visual Design</p>
-                <p><a class="btn btn-secondary" href="#wz">View details &raquo;</a></p>
+                <p><a class="btn btn-secondary icon-link" href="#wz">View details
+                    <svg class="bi" width="1em" height="1em">
+                        <use xlink:href="#chevron-right"/>
+                    </svg>
+                </a></p>
             </div><!-- /.col-lg-4 -->
 
             <div class="col-lg-4">
@@ -264,7 +346,7 @@
 
     <!-- FOOTER -->
     <footer class="container">
-        <p class="float-end"><a href="#">Back to top</a></p>
+        <p class="float-end"><a class="text-dark" href="#">Back to top</a></p>
         <p>© 2021 UM-SJTU Joint Institute.</p>
     </footer>
 </main>
