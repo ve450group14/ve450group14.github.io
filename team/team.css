@@ -48,6 +48,11 @@ body {
   letter-spacing: -.05rem;
 }
 
+.featurette-image {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 .icon-link {
     display: inline-flex;
     align-items: center;
@@ -81,8 +86,8 @@ body {
   }
 }
 
-@media (min-width: 62em) {
+@media (min-width: 88em) {
   .featurette-heading {
-    margin-top: 7rem;
+    margin-top: 3rem;
   }
 }
